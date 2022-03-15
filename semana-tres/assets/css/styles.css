@@ -76,6 +76,7 @@ body {
     font-size: 100px;
     padding: 1em;
     font-weight: 700;
+    text-align: center;
 }
 
 .informacion {
@@ -83,6 +84,7 @@ body {
     height: 100%;
     color: rgb(161, 175, 192);
     font-size: 2em;
+    text-align: center;
 }
 
 .container-d {
