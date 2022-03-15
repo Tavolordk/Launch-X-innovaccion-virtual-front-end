@@ -10,8 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="nav">
-            <p><a class="empresa" href="#">Vaccination</a></p>
+        <div class="collapse" id="navbarToggleExternalContent">
             <ul class="lista">
                 <li class="separacion-paginas"><a class="enlaces" href="#">Database</a></li>
                 <li class="separacion-paginas"><a class="enlaces" href="#">Education</a></li>
@@ -21,6 +20,14 @@
                     <div><a class="enlaces-ultimo" href="#">Hoax Buster</a></div>
                 </li>
             </ul>
+        </div>
+        <nav class="navbar navbar-light">
+            <div class="container-fluid">
+                <p><a class="empresa" href="#">Vaccination</a></p>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
         </nav>
     </header>
     <div class="container d-flex justify-content-center row">
@@ -72,16 +79,16 @@
         </div>
     </div>
     <div class="container row">
-        <div class="col-12 col-xl-12 col-md-12 col-sm-12">
+        <div class="col-12 col-xl-3 col-md-12 col-sm-12">
             <img class="img-fluid" src="assets/img/AstraZeneca_logo.svg" alt="">
         </div>
-        <div class="col-12 col-xl-12 col-md-12 col-sm-12">
+        <div class="col-12 col-xl-3 col-md-12 col-sm-12">
             <img class="img-fluid" src="assets/img/sinovac1336.jpg" alt="">
         </div>
-        <div class="col-12 col-xl-12 col-md-12 col-sm-12">
+        <div class="col-12 col-xl-3 col-md-12 col-sm-12">
             <img class="img-fluid" src="assets/img/2021-pfizer-new-logo-design.png" alt="">
         </div>
-        <div class="col-12 col-xl-12 col-md-12 col-sm-12">
+        <div class="col-12 col-xl-3 col-md-12 col-sm-12">
             <img class="img-fluid" src="assets/img/logomoderna-1200x675.jpg" alt="">
         </div>
     </div>
