@@ -1,0 +1,11 @@
+html{
+    padding: 0;
+    margin: 0 auto;
+}
+.navbar-change{
+    background-color: rgb(231, 13, 13);
+}
+.bg-change{
+    background-color: rgb(231, 13, 13);
+}
+
