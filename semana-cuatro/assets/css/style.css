@@ -1,14 +1,47 @@
-html{
-    padding: 0;
-    margin: 0 auto;
+body {
+  padding: 0;
+  margin: 0 auto;
 }
 
-.bg-change{
-    background-color: rgb(231, 13, 13);
+.bg-change {
+  background-color: rgb(231, 13, 13);
 }
 
-.navbar-toggler-icon{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-
+.interior {
+  position: absolute;
+  width: 487.13px;
+  height: 694px;
+  background: #ce1131;
+  border-radius: 25px;
+  right: 57.5%;
+}
+.recover-1{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.exterior {
+  width: 520px;
+  height: 727px;
+  background: #951828;
+  border-radius: 20px;
+}
+.vector-1{
+    position: absolute;
+    top: -2%;
+    left: -6.7%;
+}
+.door{
+    position: absolute;
+    top: 33%;
+    left: 42.3%;
+}
+.vector-3{
+    position: absolute;
+    top:35%;
+    left: 45%;
+}
