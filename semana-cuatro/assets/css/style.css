@@ -547,7 +547,7 @@ body {
   position: absolute;
   width: 310px;
   height: 190px;
-  left: 24%;
+  left: 27%;
   top: 35%;
   background: #f1f2d3;
   border-radius: 10px;
@@ -754,6 +754,9 @@ body {
   top: 80%;
   background: #032d29;
   border-radius: 5px;
+}
+.letra{
+  font-size: 10px;
 }
 footer {
   height: 130px;
