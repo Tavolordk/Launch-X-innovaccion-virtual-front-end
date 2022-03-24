@@ -1,5 +1,6 @@
 import { createApp } from 'vue';
 import App from './App.vue';
+import VueRouter from './routers/router';
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 /* import the fontawesome core */
@@ -13,11 +14,13 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faGoogle } from '@fortawesome/free-brands-svg-icons';
+import {fab} from '@fortawesome/free-brands-svg-icons';
 /* import font awesome icon component */
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
 
 /* add icons to the library */
 library.add(faUserSecret, faTwitter, faFacebook, faGithub, faInstagram, 
-    faLinkedinIn, faGoogle)
+    faLinkedinIn, faGoogle, fab)
 
-createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount('#app')
+createApp(App).use(VueRouter).component("font-awesome-icon", FontAwesomeIcon).mount('#app')

@@ -1,16 +1,17 @@
 <template>
-  <InDex/>
-  <FooTer/>
+<Navbar/>
+ <router-view />
+ <Footer/>
 </template>
 
 <script>
-import InDex from './components/NavBar.vue'
-import FooTer from './components/FooTer.vue'
+import Navbar from './components/NavBar.vue';
+import Footer from './components/FooTer.vue';
 export default {
   name: 'App',
-  components: {
-    InDex,
-    FooTer
+  components:{
+    Navbar,
+    Footer
   }
 }
 </script>
